@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react'
-import { View, Text, Animated } from 'react-native'
+import { Text, Animated } from 'react-native'
 import container from '../assets/container'
 import text from '../assets/text'
 

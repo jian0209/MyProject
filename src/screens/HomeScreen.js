@@ -63,6 +63,7 @@ export default function HomeScreen({ navigation }) {
           s.token = ''
           s.userInfoDict = {}
         })
+        AsyncStorage.clear()
       })
       .catch((err) => {
         console.error(err)

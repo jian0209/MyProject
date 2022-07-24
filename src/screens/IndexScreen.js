@@ -11,7 +11,7 @@ export default function IndexScreen({ navigation }) {
         onPress={() => {
           navigation.navigate('UserScreen')
         }}>
-        <Text>Go to user scre123en</Text>
+        <Text>Go to user screen</Text>
       </TouchableOpacity>
       <Notification text={'asdqwe'} />
     </View>

@@ -5,7 +5,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import HomeScreen from '../screens/HomeScreen'
 import UserScreen from '../screens/UserScreen'
 import IndexScreen from '../screens/IndexScreen'
-import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons'
+import RegisterScreen from '../screens/RegisterScreen'
 
 const HomeStack = createNativeStackNavigator()
 
@@ -40,7 +40,7 @@ const Tab = createBottomTabNavigator()
 export default function App() {
   return (
     <NavigationContainer>
-      <Tab.Navigator>
+      <Tab.Navigator screenOptions={{ headerShown: false }}>
         <Tab.Screen
           name="Home"
           component={HomeStackScreen}
